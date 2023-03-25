@@ -1,0 +1,435 @@
+@media (max-width:1199px) {
+	.new-box
+	{
+		margin-bottom: 21px;
+	}
+    header .navbar-header {
+        width: auto;
+    }
+      header .navbar-brand {
+    width: 100%;
+    max-width: 190px;
+}
+  header .menu_bar {
+    width: 79%;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+    header .menu_bar .navbar-nav.menu {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    header .menu_bar .navbar-nav li a {
+        font-size: 15px;
+    }
+    header .menu_bar .navbar-nav.navbar-right li a.btn_pess {
+        font-size: 14px;
+       
+        padding: 10px 0 !important;
+    }
+    .banner_sec .carousel-control {
+        width: 20px;
+        height: 39px;
+    }
+    .banner_sec .carousel-control.left {
+        left: 8px;
+    }
+    .banner_sec .carousel-control.right {
+        right: 8px;
+    }
+    .banner_sec .banner_contnt {
+        padding: 10px 0 0;
+    }
+    .banner_sec .item {
+        padding: 60px 0 0;
+    }
+    .banner_sec .carousel-control:hover {
+        opacity: 1;
+    }
+    .banner_sec .banner_contnt .btn_app {
+        font-size: 18px;
+        padding: 8px 32px;
+    }
+    .banner_sec .banner_contnt p {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .work_sec {
+        padding: 70px 0 0;
+    }
+
+    .about_sec .about_contnt h4 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .about_sec .about_contnt p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+    .steps .steps_move li {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+    .steps .steps_move li .step_cl p {
+    font-size: 20px;
+}
+    .steps .steps_move li .step_cl span {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+    .steps .steps_move li.current, .steps .steps_move li.complete {
+    padding-bottom: 19px;
+}
+    .vehicle_proof #profile-container figure img {
+    max-width: 85%;
+}
+    .vehcial_img #profile-container {
+    height: 230px;
+    background: #fff;
+}
+    .vehcial_img #profile-container figure img{
+        width:100%;
+        max-width: 100%;
+    }
+    figure.about-img {
+      position: absolute;
+    top: 0;
+    width: 80%;
+}
+    .about_sec .about_contnt {
+    margin-bottom: 30px;
+}
+    footer .footer-logo  a.ftr_log{
+    width: 100%;
+    max-width: 190px;
+}
+}
+
+@media (max-width:991px) {
+header {
+    padding: 15px 0;
+}
+
+    header .navbar-header {
+        width: 100%;
+        margin: auto !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-toggle {
+        padding: 9px 10px;
+        margin-top: 7px;
+        margin-right: 0;
+        margin-bottom: 0;
+        border: 1px solid orange;
+        border-radius: 4px;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background: orange;
+    }
+    header .menu_bar {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    header .menu_bar .navbar-nav li {
+        padding: 0;
+    }
+    header .navbar-nav {
+        margin: auto;
+    }
+    header .menu_bar .navbar-nav.navbar-right li{
+        float: left;
+        margin-bottom: 15px
+    }
+    header .navbar .menu_bar .navbar-collapse.collapse {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+        display: block !IMPORTANT;
+    }
+    .navbar-collapse.collapsing,
+    .navbar-collapse.collapse {
+        padding: 0 15px !important;
+        margin: 0;
+    }
+  header .navbar .menu_bar .navbar-collapse.collapse, .navbar-collapse.collapsing {
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.98);
+    top: 65px;
+    z-index: 9;
+}
+    header .navbar-nav {
+        width: 100%;
+    }
+    header .menu_bar .navbar-nav li {
+        padding: 0;
+        display: block;
+        float: none;
+    }
+   header .menu_bar .navbar-nav li.active a, header .menu_bar .navbar-nav li:hover a, header .menu_bar .navbar-nav li:focus a {
+    color: #0e85f3;
+    border-color: transparent;
+    background: transparent;
+}
+  
+.banner_sec .banner_contnt {
+    padding: 10px 0 15px;
+}
+    .banner_sec .item {
+        padding: 60px 0 0;
+        background-size: cover !important;
+    }
+    .banner_sec .img figure {
+        max-width: 60%;
+    }
+    .work_sec {
+        padding: 50px 0 40px;
+    }
+    .work_sec figure {
+        padding-left: 0;
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .work_sec .work_contnt {
+        padding-left: 0;
+    }
+    .work_sec figure:after {
+    right: -68px;
+}
+    .about_sec {
+        padding: 50px 0 0;
+    }
+    .about_sec .about_contnt {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .about_sec figure {
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 50%;
+    }
+    figure.about-img {
+    position: relative;
+    top: 0;
+}
+    footer span,
+    footer .footer_nav {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    footer .social_link {
+        float: left;
+        width: 100%;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+    .steps .steps_move li .step_cl p {
+    font-size: 18px;
+}
+    .steps .steps_move li .step_cl span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 6px;
+    font-size: 15px;
+}
+    .steps .book_form.book_secform figure {
+    margin: 0 auto 40px;
+}
+    .vehcial_img .vehicle_proof p {
+    margin-bottom: 10px;
+}
+    .vehcial_img #profile-container {
+    height: 300px;
+    background: #f3f3f2;
+    margin-top: 30px;
+}
+    .vehcial_img #profile-container figure img {
+    width: auto;
+    max-width: 100%;
+}
+}
+
+@media (max-width:767px) {
+  
+  .heading h4
+  {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .new-box
+  {
+    margin-bottom: 20px;
+  }
+
+  a.newsss.btn.btn-primary, a.text-nice.good.btn.btn-primary, a.text-nice.btn.btn-primary
+  {
+    padding: 16px 16px;
+    font-size: 12px;
+  }
+    .banner_sec .item {
+        padding: 30px 0 0;
+    }
+    .banner_sec .banner_contnt {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .featured_sec {
+        padding: 45px 0;
+    }
+    .featured_sec p {
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .work_sec .work_contnt h4 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .work_sec .work_contnt p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .work_sec .work_contnt ul li {
+        font-size: 17px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .steps {
+    padding: 55px 0 0;
+}
+    .steps .steps_move li .step_cl span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 0;
+    font-size: 15px;
+    margin:0 auto 10px;
+    display: block;
+    text-align: center;
+}
+    .vehicle_proof {
+    padding: 40px 0 0;
+}
+    .vehicle_proof #profile-container {
+    margin-top: 30px;
+}
+    .steps .book_form .addre {
+    padding: 40px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+    .work_sec figure:after{
+        display: none;
+    }
+    footer .footer_nav li {
+    padding: 0 8px;
+}
+}
+
+@media (max-width:600px){
+  .vehicle_proof .col-xs-6 {
+    width: 100%;
+}
+}
+@media (max-width:480px) {
+    header .menu_bar .navbar-nav.navbar-right li a.drive{
+        margin-right:10px !important;
+    }
+    .banner_sec .banner_contnt h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 34px;
+}
+    .banner_sec .banner_contnt p {
+    margin-bottom: 10px;
+}
+    .banner_sec .banner_contnt a.app-btn.apple-btn, .banner_sec .banner_contnt a.app-btn {
+    text-align: center;
+    display: block;
+    margin:15px auto 0;
+    width: 165px;
+}
+    .banner_sec .banner_contnt {
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+    .banner_sec .img figure {
+        max-width: 100%;
+    }
+    .work_sec figure {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .download-apps a.app-btn {
+    display: block;
+    margin: 0 auto 15px;
+}
+    .about_sec figure {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .about_sec .about_contnt .about_person figure {
+        margin: 0;
+    }
+    .about_sec .about_contnt .about_person .contnt {
+        width: 84%;
+        padding-left: 15px;
+        margin-top: -5px;
+    }
+    .contact_sec {
+        padding: 45px 0;
+    }
+    footer {
+        padding: 20px 0 25px;
+    }
+    footer .footer_nav li:first-child {
+        padding-left: 0;
+    }
+    footer .footer_nav li:last-child {
+        padding-right: 0;
+    }
+footer .footer_nav li {
+    padding: 0 9px;
+    margin-bottom: 8px;
+}
+    .steps .steps_move li .step_cl {
+    padding: 0;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+    .steps .steps_move li .step_cl p {
+    font-size: 13px;
+}
+}

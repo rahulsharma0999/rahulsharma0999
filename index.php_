@@ -1,0 +1,10 @@
+<?php
+$http = $_SERVER["REQUEST_SCHEME"];
+$root = $_SERVER["SERVER_NAME"];
+$from = $_SERVER['REQUEST_URI'];
+$to = $from."public/";
+$final_path = $http."://".$root.$to;
+
+header("location:".$final_path);
+
+?>

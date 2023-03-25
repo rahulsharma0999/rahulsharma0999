@@ -1,0 +1,58 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Validator;
+Use App\User;
+use GuzzleHttp;
+use Hash;
+use Auth;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Facades\Storage;
+use DB;
+use Session;
+use Redirect;
+use Carbon\Carbon;
+
+
+class ReviewsManagementController extends Controller
+{
+    public function reviewsListing(Request $request)
+    {
+        $get_reviews=DB::table('reviews')
+      //  ->select('')
+           ->leftJoin('users','users.id','=','reviews.user_id') 
+           ->leftJoin('requests','requests.id','=','reviews.request_id')
+           ->select('users.*','reviews.*','reviews.id as review_id','requests.*','requests.id as request_id')
+           ->get();
+		  // echo "<pre>";print_r($get_reviews);die;
+        return view('admin.reviews',['reviews'=>$get_reviews]);
+    }
+    
+    public function reviewDetail(Request $request,$request_id)
+    {
+       
+        $review_detail=DB::table('requests')
+            ->leftJoin('users','users.id','=','requests.user_id')
+            ->leftJoin('services','services.id','=','requests.service_id')
+            ->leftJoin('vehicles','vehicles.id','=','requests.vehicle_id')
+            ->leftJoin('reviews','reviews.request_id','=','requests.id')
+           ->where(['requests.id'=>$request_id])
+             ->select('users.*','services.*','vehicles.*','vehicles.name as vehicle_name','requests.*','requests.id as request_id','reviews.*')
+            ->first();
+			//echo "<pre>";print_r($review_detail);die;
+        return view('admin.review-detail',['request'=>$review_detail]);
+
+    }
+
+    
+
+    
+
+    
+
+}
